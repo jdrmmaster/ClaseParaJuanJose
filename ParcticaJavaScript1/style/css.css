@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    margin: 0;
+}
+
+.div-p {
+    background: rgb(143, 112, 27);
+    padding: 10;
+    font-size: x-large;
+    align-items: center;
+}
+
+.div {}
