@@ -1,5 +1,7 @@
 * {
     font-family: sans-serif;
+    margin: 0;
+    
 }
 
 body {
@@ -13,5 +15,32 @@ body {
     font-size: x-large;
     align-items: center;
 }
+.form-data {
+    display: flex;
+    flex-direction: column;
+}
+.cont-reg-user{
 
+margin: 10px;
+
+justify-content: center;
+
+display: flex;
+
+align-items: center;
+
+background: #bcbcbc;
+
+flex-direction: revert;
+
+width: -webkit-fill-available;
+
+height: 61vh;
+
+align-content: flex-end;
+}
 .div {}
+.cont-reg-user input, .cont-reg-user button{
+    
+margin: 15PX;
+}
