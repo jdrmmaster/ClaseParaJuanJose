@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(10, 175, 252);
+    color: white;
+    padding: 10px
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    height: 300px;
+    width: 800px;
+    margin 20px;
+    background-color: blanchedalmond;
+    border: black 10px;
+}
+
+.div-item {
+    background-color: blanchedalmond;
+    border-radius: 5px black;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    border: black 20px;
+}
+
+.marron {
+    background-color: rgba(156, 98, 11, 0.644);
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 100px;
+    border-radius: 5px;
+    border: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.marron-hijo {
+    height: 25px;
+    width: 100%;
+    background: chartreuse;
+}
